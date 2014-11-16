@@ -3,19 +3,14 @@
 An EPUB widget to display offline maps with geolocation and POIs
 
 ## Project
-The idea is to make available interactive offline maps in EPUBs for making travel guides and other publications.
-
-Since it isn't possible to embed an online map into an EPUB (like Google Maps), I looked for a solution to make it available offline.
-
-Offline maps are perfects because they work also when you are abroad and you don't have an internet connection.
+The idea is to make available interactive offline maps in EPUBs for making travel guides and other publications.  
+Since it isn't possible to embed an online map into an EPUB (like Google Maps), I looked for a solution to make it available offline.  
+Offline maps are perfects because they work also when you are abroad and you don't have an internet connection.  
 
 ## How I did
-I looked for a solution for offline maps on mobile devices and I found this article: http://davidrs.com/wp/phonegap-3-0-leaflet-offline-maps/
-
-Then I used Mobile Atlas Creator (http://mobac.sourceforge.net/) for downloading the tiles of the region I was interested: Turin (my town) in Italy.
-
-I downloaded the JavaScript library Leaflet (http://leafletjs.com/)
-
+I looked for a solution for offline maps on mobile devices and I found this article: http://davidrs.com/wp/phonegap-3-0-leaflet-offline-maps/  
+Then I used Mobile Atlas Creator (http://mobac.sourceforge.net/) for downloading the tiles of the region I was interested: Turin (my town) in Italy.  
+I downloaded the JavaScript library Leaflet (http://leafletjs.com/)  
 I packaged all in an EPUB3 file *et voilat*, it works!
 
 ## Test

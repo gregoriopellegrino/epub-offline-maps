@@ -16,6 +16,7 @@
 		<item id="jquery-2.1.1" href="js/jquery-2.1.1.min.js" media-type="text/javascript"/>
 		<item id="leaflet-src" href="js/leaflet-0.7.3/leaflet-src.js" media-type="text/javascript"/>
 		<item id="leaflet" href="js/leaflet-0.7.3/leaflet.js" media-type="text/javascript"/>
+		<item id="leaflet-license" href="js/leaflet-0.7.3/LICENSE" media-type="text/plain"/>
 		<item id="leaflet-css" href="js/leaflet-0.7.3/leaflet.css" media-type="text/css"/>
 		<item id="layers-2x" href="js/leaflet-0.7.3/images/layers-2x.png" media-type="image/png"/>
 		<item id="layers" href="js/leaflet-0.7.3/images/layers.png" media-type="image/png"/>
