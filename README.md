@@ -1,32 +1,37 @@
-epub-offline-maps
-=================
+#epub-offline-maps
 
 An EPUB widget to display offline maps with geolocation and POIs
 
-# Project
-The idea is to make available interactives offline maps in EPUBs for making travel guide and other pubblications.
-Since it isn't possible to embed an online map into an EPUB (like Google Maps), I would like to insert maps in my books: so I made for this solution.
-Offline maps are great because they work also when you are abroad and don't have an internet connection.
+## Project
+The idea is to make available interactive offline maps in EPUBs for making travel guides and other publications.
 
-# How I did
-I looked for a solution for mobile offline maps and found this article: http://davidrs.com/wp/phonegap-3-0-leaflet-offline-maps/
+Since it isn't possible to embed an online map into an EPUB (like Google Maps), I looked for a solution to make it available offline.
+
+Offline maps are perfects because they work also when you are abroad and you don't have an internet connection.
+
+## How I did
+I looked for a solution for offline maps on mobile devices and I found this article: http://davidrs.com/wp/phonegap-3-0-leaflet-offline-maps/
+
 Then I used Mobile Atlas Creator (http://mobac.sourceforge.net/) for downloading the tiles of the region I was interested: Turin (my town) in Italy.
-I packaged all in an EPUB3 file et voilat, it works!
 
-# Test
+I downloaded the JavaScript library Leaflet (http://leafletjs.com/)
+
+I packaged all in an EPUB3 file *et voilat*, it works!
+
+## Test
 The project has been tested on:
-- Adobe Digital Editions 4.0 (on OS X Yosemite): OK
-- iBooks 1.1 (on OS X Yosemite): doesn't work
-- iBooks 3.2 (on iOS 7.0.6): doesn't work
-- Readium (on Chrome): OK
+- Adobe Digital Editions 4.0 (on OS X Yosemite): **OK**
+- iBooks 1.1 (on OS X Yosemite): **doesn't work**
+- iBooks 3.2 (on iOS 7.0.6): **doesn't work**
+- Readium (on Chrome): **OK**
 
-# Todo
+## Todo
 - add the geolocation (http://leafletjs.com/reference.html#map-locate)
 - add POIs
-- test on Readium mobile (Kobo, ecc.)
+- test on Readium SDK (Kobo, ecc.)
 - pack it as an EPUB widget (http://www.idpf.org/epub/widgets/)
 
-# License
+## License
 © 2014 Gregorio Pellegrino
 All rights reserved.
 
